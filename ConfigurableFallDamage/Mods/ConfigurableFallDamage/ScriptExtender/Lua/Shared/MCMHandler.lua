@@ -4,6 +4,7 @@ CFD.MCM = {}
 local FALL_DAMAGE_SETTINGS = {
     -- General settings
     "mod_enabled",
+    "debug_level",
 
     -- Fall Damage settings
     "fall_damage_base_damage",

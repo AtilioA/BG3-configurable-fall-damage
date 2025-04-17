@@ -13,26 +13,6 @@
             },
             "Sections": [
                 {
-                    "SectionId": "general_settings",
-                    "SectionName": "General settings",
-                    "Handles": {
-                        "NameHandle": "h3456789012abcdef3456789012abcdef3456"
-                    },
-                    "Settings": [
-                        {
-                            "Id": "mod_enabled",
-                            "Name": "Enabled",
-                            "Handles": {
-                                "NameHandle": "h4567890123abcdef4567890123abcdef4567",
-                                "DescriptionHandle": "h5678901234abcdef5678901234abcdef5678"
-                            },
-                            "Type": "checkbox",
-                            "Default": true,
-                            "Description": "Toggle the mod on/off without having to uninstall it."
-                        }
-                    ]
-                },
-                {
                     "SectionId": "fall_damage",
                     "SectionName": "Fall damage",
                     "Handles": {
@@ -56,32 +36,32 @@
                         },
                         {
                             "Id": "fall_damage_maximum_distance",
-                            "Name": "Maximum distance",
+                            "Name": "Maximum distance (m)",
                             "Handles": {
                                 "NameHandle": "hb234567890abcdefb234567890abcdefb234",
                                 "DescriptionHandle": "hc345678901abcdefc345678901abcdefc345"
                             },
-                            "Type": "slider_float",
-                            "Default": 21.0,
-                            "Description": "Maximum distance in meters for fall damage calculation",
+                            "Type": "slider_int",
+                            "Default": 21,
+                            "Description": "Maximum distance in meters for fall damage calculation (21m = 69ft)",
                             "Options": {
-                                "Min": 5.0,
-                                "Max": 100.0
+                                "Min": 5,
+                                "Max": 50
                             }
                         },
                         {
                             "Id": "fall_damage_minimum_distance",
-                            "Name": "Minimum distance",
+                            "Name": "Minimum distance (m)",
                             "Handles": {
                                 "NameHandle": "hd456789012abcdefd456789012abcdefd456",
                                 "DescriptionHandle": "he567890123abcdefe567890123abcdefe567"
                             },
                             "Type": "slider_float",
                             "Default": 4.0,
-                            "Description": "Minimum distance in meters before fall damage is applied",
+                            "Description": "Minimum distance in meters before fall damage is applied (4m = 13ft)",
                             "Options": {
                                 "Min": 0.0,
-                                "Max": 20.0
+                                "Max": 21.0
                             }
                         },
                         {
@@ -179,14 +159,14 @@
                         },
                         {
                             "Id": "fall_impact_push_distance",
-                            "Name": "Impact push distance",
+                            "Name": "Impact push distance (m)",
                             "Handles": {
                                 "NameHandle": "ha789012345abcdefa789012345abcdefa789",
                                 "DescriptionHandle": "hb890123456abcdefb890123456abcdefb890"
                             },
                             "Type": "slider_float",
                             "Default": 2.0,
-                            "Description": "How far characters are pushed by fall impacts",
+                            "Description": "How far characters are pushed by fall impacts (2m = 7ft)",
                             "Options": {
                                 "Min": 0.0,
                                 "Max": 10.0
@@ -220,6 +200,50 @@
                             "Options": {
                                 "Min": 100.0,
                                 "Max": 2000.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TabId": "GeneralParameters",
+            "TabName": "General",
+            "Handles": {
+                "NameHandle": "hgeneral12345abcdefhgeneral12345abcdefhgen"
+            },
+            "Sections": [
+                {
+                    "SectionId": "general_settings",
+                    "SectionName": "General settings",
+                    "Handles": {
+                        "NameHandle": "h3456789012abcdef3456789012abcdef3456"
+                    },
+                    "Settings": [
+                        {
+                            "Id": "mod_enabled",
+                            "Name": "Enabled",
+                            "Handles": {
+                                "NameHandle": "h4567890123abcdef4567890123abcdef4567",
+                                "DescriptionHandle": "h5678901234abcdef5678901234abcdef5678"
+                            },
+                            "Type": "checkbox",
+                            "Default": true,
+                            "Description": "Toggle the mod on/off without having to uninstall it."
+                        },
+                        {
+                            "Id": "debug_level",
+                            "Name": "Debug Level",
+                            "Handles": {
+                                "NameHandle": "hdebug123456abcdefhdebug123456abcdefhdeb",
+                                "DescriptionHandle": "hdebug234567abcdefhdebug234567abcdefhdeb"
+                            },
+                            "Type": "slider_int",
+                            "Default": 0,
+                            "Description": "Debug output level (0: None, 1: Basic, 2: Verbose)",
+                            "Options": {
+                                "Min": 0,
+                                "Max": 2
                             }
                         }
                     ]
