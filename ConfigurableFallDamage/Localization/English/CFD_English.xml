@@ -5,11 +5,12 @@
 
     <!-- Tab names -->
     <content contentuid="h2345678901abcdef2345678901abcdef2345" version="1">Fall damage parameters</content>
+    <content contentuid="h3012345678abcdef3012345678abcdef3012" version="1">Pathfinding parameters</content>
 
     <!-- Section names -->
     <content contentuid="h3456789012abcdef3456789012abcdef3456" version="1">General settings</content>
     <content contentuid="h6789012345abcdef6789012345abcdef6789" version="1">Fall Damage</content>
-    <content contentuid="h3012345678abcdef3012345678abcdef3012" version="1">Fall Pathfinding</content>
+    <content contentuid="h4123456789abcdef4123456789abcdef4123" version="1">Fall Pathfinding</content>
 
     <!-- Setting names and descriptions -->
     <!-- General settings -->
@@ -19,8 +20,6 @@
     <!-- Fall Damage settings -->
     <content contentuid="h7890123456abcdef7890123456abcdef7890" version="1">Base Damage</content>
     <content contentuid="h8901234567abcdef8901234567abcdef8901" version="1">Base damage multiplier for falls</content>
-    <content contentuid="h9012345678abcdef9012345678abcdef9012" version="1">Damage Type</content>
-    <content contentuid="ha123456789abcdefa123456789abcdefa123" version="1">Type of damage inflicted by falls</content>
     <content contentuid="hb234567890abcdefb234567890abcdefb234" version="1">Maximum Distance</content>
     <content contentuid="hc345678901abcdefc345678901abcdefc345" version="1">Maximum distance in meters for fall damage calculation</content>
     <content contentuid="hd456789012abcdefd456789012abcdefd456" version="1">Minimum Distance</content>
