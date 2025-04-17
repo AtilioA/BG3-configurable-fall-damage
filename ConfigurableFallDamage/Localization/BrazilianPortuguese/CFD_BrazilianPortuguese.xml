@@ -17,7 +17,7 @@
     <!-- General settings -->
     <content contentuid="h4567890123abcdef4567890123abcdef4567" version="1">Ativado</content>
     <content contentuid="h5678901234abcdef5678901234abcdef5678" version="1">Ativa/desativa o mod sem precisar desinstalá-lo.</content>
-    <content contentuid="hdebug123456abcdefhdebug123456abcdefhdeb" version="1">Nível de Debug</content>
+    <content contentuid="hdebug123456abcdefhdebug123456abcdefhdeb" version="1">Nível de debug</content>
     <content contentuid="hdebug234567abcdefhdebug234567abcdefhdeb" version="1">Nível de saída de debug (0: Nenhum, 1: Básico, 2: Detalhado)</content>
 
     <!-- Fall Damage settings -->

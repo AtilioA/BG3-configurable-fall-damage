@@ -17,7 +17,7 @@
     <!-- General settings -->
     <content contentuid="h4567890123abcdef4567890123abcdef4567" version="1">Mod enabled</content>
     <content contentuid="h5678901234abcdef5678901234abcdef5678" version="1">Toggle the mod on/off without having to uninstall it.</content>
-    <content contentuid="hdebug123456abcdefhdebug123456abcdefhdeb" version="1">Debug Level</content>
+    <content contentuid="hdebug123456abcdefhdebug123456abcdefhdeb" version="1">Debug level</content>
     <content contentuid="hdebug234567abcdefhdebug234567abcdefhdeb" version="1">Debug output level (0: None, 1: Basic, 2: Verbose)</content>
 
     <!-- Fall Damage settings -->

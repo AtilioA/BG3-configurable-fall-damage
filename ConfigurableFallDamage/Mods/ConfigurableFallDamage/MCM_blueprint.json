@@ -43,7 +43,7 @@
                             },
                             "Type": "slider_int",
                             "Default": 21,
-                            "Description": "Maximum distance in meters for fall damage calculation (21m = 69ft)",
+                            "Description": "Maximum distance in meters for fall damage calculation (21m ~ 69ft)",
                             "Options": {
                                 "Min": 5,
                                 "Max": 50
@@ -58,7 +58,7 @@
                             },
                             "Type": "slider_float",
                             "Default": 4.0,
-                            "Description": "Minimum distance in meters before fall damage is applied (4m = 13ft)",
+                            "Description": "Minimum distance in meters before fall damage is applied (4m ~ 13ft)",
                             "Options": {
                                 "Min": 0.0,
                                 "Max": 21.0
@@ -166,7 +166,7 @@
                             },
                             "Type": "slider_float",
                             "Default": 2.0,
-                            "Description": "How far characters are pushed by fall impacts (2m = 7ft)",
+                            "Description": "How far characters are pushed by fall impacts (2m ~ 7ft)",
                             "Options": {
                                 "Min": 0.0,
                                 "Max": 10.0
@@ -233,7 +233,7 @@
                         },
                         {
                             "Id": "debug_level",
-                            "Name": "Debug Level",
+                            "Name": "Debug level",
                             "Handles": {
                                 "NameHandle": "hdebug123456abcdefhdebug123456abcdefhdeb",
                                 "DescriptionHandle": "hdebug234567abcdefhdebug234567abcdefhdeb"
