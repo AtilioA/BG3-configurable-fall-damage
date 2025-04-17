@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <!-- Mod name -->
+    <content contentuid="h1234567890abcdef1234567890abcdef1234" version="1">Dano de Queda Configurável</content>
+
+    <!-- Tab names -->
+    <content contentuid="h2345678901abcdef2345678901abcdef2345" version="1">Parâmetros de dano de queda</content>
+
+    <!-- Section names -->
+    <content contentuid="h3456789012abcdef3456789012abcdef3456" version="1">Configurações gerais</content>
+    <content contentuid="h6789012345abcdef6789012345abcdef6789" version="1">Dano de Queda</content>
+    <content contentuid="h3012345678abcdef3012345678abcdef3012" version="1">Pathfinding de Queda</content>
+
+    <!-- Setting names and descriptions -->
+    <!-- General settings -->
+    <content contentuid="h4567890123abcdef4567890123abcdef4567" version="1">Ativado</content>
+    <content contentuid="h5678901234abcdef5678901234abcdef5678" version="1">Ativa/desativa o mod sem precisar desinstalá-lo.</content>
+
+    <!-- Fall Damage settings -->
+    <content contentuid="h7890123456abcdef7890123456abcdef7890" version="1">Dano Base</content>
+    <content contentuid="h8901234567abcdef8901234567abcdef8901" version="1">Multiplicador de dano base para quedas</content>
+    <content contentuid="h9012345678abcdef9012345678abcdef9012" version="1">Tipo de Dano</content>
+    <content contentuid="ha123456789abcdefa123456789abcdefa123" version="1">Tipo de dano causado por quedas</content>
+    <content contentuid="hb234567890abcdefb234567890abcdefb234" version="1">Distância Máxima</content>
+    <content contentuid="hc345678901abcdefc345678901abcdefc345" version="1">Distância máxima em metros para o cálculo de dano de queda</content>
+    <content contentuid="hd456789012abcdefd456789012abcdefd456" version="1">Distância Mínima</content>
+    <content contentuid="he567890123abcdefe567890123abcdefe567" version="1">Distância mínima em metros antes do dano de queda ser aplicado</content>
+    <content contentuid="hf678901234abcdeff678901234abcdeff678" version="1">Multiplicador Enorme/Gigantesco</content>
+    <content contentuid="h0789012345abcdef0789012345abcdef0789" version="1">Multiplicador de dano para criaturas enormes e gigantescas</content>
+    <content contentuid="h1890123456abcdef1890123456abcdef1890" version="1">Porcentagem de Queda</content>
+    <content contentuid="h2901234567abcdef2901234567abcdef2901" version="1">Chance percentual de ficar caído após uma queda</content>
+
+    <!-- Fall Pathfinding settings -->
+    <content contentuid="h4123456789abcdef4123456789abcdef4123" version="1">Custo de Pathfinding Fatal</content>
+    <content contentuid="h5234567890abcdef5234567890abcdef5234" version="1">Custo de pathfinding para quedas fatais</content>
+    <content contentuid="h6345678901abcdef6345678901abcdef6345" version="1">Constante de Impacto</content>
+    <content contentuid="h7456789012abcdef7456789012abcdef7456" version="1">Constante usada nos cálculos de impacto de queda</content>
+    <content contentuid="h8567890123abcdef8567890123abcdef8567" version="1">Peso Mínimo de Impacto</content>
+    <content contentuid="h9678901234abcdef9678901234abcdef9678" version="1">Peso mínimo para cálculos de impacto de queda</content>
+    <content contentuid="ha789012345abcdefa789012345abcdefa789" version="1">Distância de Empurrão por Impacto</content>
+    <content contentuid="hb890123456abcdefb890123456abcdefb890" version="1">Quão longe os personagens são empurrados por impactos de queda</content>
+    <content contentuid="hc901234567abcdefc901234567abcdefc901" version="1">Custo de Pathfinding de Dano Máximo</content>
+    <content contentuid="hd012345678abcdefd012345678abcdefd012" version="1">Custo de pathfinding para quedas com dano máximo</content>
+    <content contentuid="he123456789abcdefe123456789abcdefe123" version="1">Custo de Pathfinding de Dano Mínimo</content>
+    <content contentuid="hf234567890abcdeff234567890abcdeff234" version="1">Custo de pathfinding para quedas com dano mínimo</content>
+</contentList>
