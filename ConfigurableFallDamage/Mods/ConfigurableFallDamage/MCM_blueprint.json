@@ -222,7 +222,7 @@
                     "Settings": [
                         {
                             "Id": "mod_enabled",
-                            "Name": "Enabled",
+                            "Name": "Mod enabled",
                             "Handles": {
                                 "NameHandle": "h4567890123abcdef4567890123abcdef4567",
                                 "DescriptionHandle": "h5678901234abcdef5678901234abcdef5678"
