@@ -87,8 +87,8 @@
                                 "DescriptionHandle": "h2901234567abcdef2901234567abcdef2901"
                             },
                             "Type": "slider_int",
-                            "Default": 100,
-                            "Description": "Chance to fall prone when receiving fall damage",
+                            "Default": 25,
+                            "Description": "Chance to fall prone when receiving fall damage.\nNote: setting to 0 will not prevent the \"Prone\" indicator from appearing.",
                             "Options": {
                                 "Min": 0,
                                 "Max": 100

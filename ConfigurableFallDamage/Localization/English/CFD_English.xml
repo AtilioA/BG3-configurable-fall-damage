@@ -30,8 +30,7 @@
     <content contentuid="hf678901234abcdeff678901234abcdeff678" version="1">Huge/gargantuan multiplier</content>
     <content contentuid="h0789012345abcdef0789012345abcdef0789" version="1">Damage multiplier for huge and gargantuan creatures</content>
     <content contentuid="h1890123456abcdef1890123456abcdef1890" version="1">Chance to fall prone</content>
-    <content contentuid="h2901234567abcdef2901234567abcdef2901" version="1">Chance to fall prone when receiving fall damage</content>
-
+    <content contentuid="h2901234567abcdef2901234567abcdef2901" version="1">Chance to fall prone when receiving fall damage.&lt;br&gt;Note: setting to 0 will not prevent the "Prone" indicator from appearing.</content>
     <!-- Fall Pathfinding settings -->
     <content contentuid="h4123456789abcdef4123456789abcdef4123" version="1">Dead pathfinding cost</content>
     <content contentuid="h5234567890abcdef5234567890abcdef5234" version="1">Pathfinding cost for deadly falls</content>
