@@ -28,6 +28,11 @@ function CFD.FallDamage.StoreDefaultValues()
     end
 end
 
+-- Convert prone percentage from MCM to decimal format (inverted: 100% -> 0.0, 0% -> 1.0)
+local function ConvertPronePercentage(value)
+    return 1.0 - (value / 100.0)
+end
+
 -- Apply fall damage settings from MCM to the game
 -- @param settingId (optional) Specific setting to apply, or nil to apply all settings
 function CFD.FallDamage.ApplyFallDamageSettings(settingId)
@@ -65,13 +70,14 @@ function CFD.FallDamage.ApplyFallDamageSettings(settingId)
         if settingId == nil or settingId == "fall_damage_multiplier_huge_gargantuan" then
             statsManager.ExtraData.FallDamageMultiplierHugeGargantuan = MCM.Get("fall_damage_multiplier_huge_gargantuan")
             CFDPrint(2,
-            "Applied huge/gargantuan multiplier: " .. tostring(MCM.Get("fall_damage_multiplier_huge_gargantuan")))
+                "Applied huge/gargantuan multiplier: " .. tostring(MCM.Get("fall_damage_multiplier_huge_gargantuan")))
         end
 
         -- Apply prone percentage setting if requested or applying all
         if settingId == nil or settingId == "fall_damage_prone_percent" then
-            statsManager.ExtraData.FallDamagePronePercent = MCM.Get("fall_damage_prone_percent")
-            CFDPrint(2, "Applied prone percentage: " .. tostring(MCM.Get("fall_damage_prone_percent")))
+            local proneValue = ConvertPronePercentage(MCM.Get("fall_damage_prone_percent"))
+            statsManager.ExtraData.FallDamagePronePercent = proneValue
+            CFDPrint(2, "Applied prone percentage: " .. tostring(proneValue))
         end
 
         -- Apply dead pathfinding cost setting if requested or applying all
