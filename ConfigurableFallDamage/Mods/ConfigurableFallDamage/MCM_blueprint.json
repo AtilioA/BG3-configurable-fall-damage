@@ -127,21 +127,21 @@
                                 "Max": 50000.0
                             }
                         },
-                        {
-                            "Id": "fall_impact_constant",
-                            "Name": "Impact constant",
-                            "Handles": {
-                                "NameHandle": "h6345678901abcdef6345678901abcdef6345",
-                                "DescriptionHandle": "h7456789012abcdef7456789012abcdef7456"
-                            },
-                            "Type": "slider_float",
-                            "Default": 0.0000049999998736894,
-                            "Description": "Constant used in fall impact calculations",
-                            "Options": {
-                                "Min": 0.000001,
-                                "Max": 0.0001
-                            }
-                        },
+                        // {
+                        //     "Id": "fall_impact_constant",
+                        //     "Name": "Impact constant",
+                        //     "Handles": {
+                        //         "NameHandle": "h6345678901abcdef6345678901abcdef6345",
+                        //         "DescriptionHandle": "h7456789012abcdef7456789012abcdef7456"
+                        //     },
+                        //     "Type": "slider_float",
+                        //     "Default": 0.0000049999998736894,
+                        //     "Description": "Constant used in fall impact calculations",
+                        //     "Options": {
+                        //         "Min": 0.000001,
+                        //         "Max": 0.0001
+                        //     }
+                        // },
                         {
                             "Id": "fall_impact_min_weight",
                             "Name": "Impact minimum weight",

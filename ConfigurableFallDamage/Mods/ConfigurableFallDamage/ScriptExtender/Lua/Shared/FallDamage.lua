@@ -85,12 +85,11 @@ function CFD.FallDamage.ApplyFallDamageSettings(settingId)
             statsManager.ExtraData.FallDeadPathfindingCost = MCM.Get("fall_dead_pathfinding_cost")
             CFDPrint(2, "Applied dead pathfinding cost: " .. tostring(MCM.Get("fall_dead_pathfinding_cost")))
         end
-
         -- Apply impact constant setting if requested or applying all
-        if settingId == nil or settingId == "fall_impact_constant" then
-            statsManager.ExtraData.FallImpactConstant = MCM.Get("fall_impact_constant")
-            CFDPrint(2, "Applied impact constant: " .. tostring(MCM.Get("fall_impact_constant")))
-        end
+        -- if settingId == nil or settingId == "fall_impact_constant" then
+        --     statsManager.ExtraData.FallImpactConstant = MCM.Get("fall_impact_constant")
+        --     CFDPrint(2, "Applied impact constant: " .. tostring(MCM.Get("fall_impact_constant")))
+        -- end
 
         -- Apply impact minimum weight setting if requested or applying all
         if settingId == nil or settingId == "fall_impact_min_weight" then
@@ -135,7 +134,7 @@ function CFD.FallDamage.ApplyDefaultSettings()
     statsManager.ExtraData.FallDamageMultiplierHugeGargantuan = defaults.FallDamageMultiplierHugeGargantuan
     statsManager.ExtraData.FallDamagePronePercent = defaults.FallDamagePronePercent
     statsManager.ExtraData.FallDeadPathfindingCost = defaults.FallDeadPathfindingCost
-    statsManager.ExtraData.FallImpactConstant = defaults.FallImpactConstant
+    -- statsManager.ExtraData.FallImpactConstant = defaults.FallImpactConstant
     statsManager.ExtraData.FallImpactMinWeight = defaults.FallImpactMinWeight
     statsManager.ExtraData.FallImpactPushDistance = defaults.FallImpactPushDistance
     statsManager.ExtraData.FallMaxDamagePathfindingCost = defaults.FallMaxDamagePathfindingCost
