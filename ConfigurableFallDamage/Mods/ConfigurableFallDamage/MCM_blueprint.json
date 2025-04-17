@@ -34,14 +34,14 @@
                 },
                 {
                     "SectionId": "fall_damage",
-                    "SectionName": "Fall Damage",
+                    "SectionName": "Fall damage",
                     "Handles": {
                         "NameHandle": "h6789012345abcdef6789012345abcdef6789"
                     },
                     "Settings": [
                         {
                             "Id": "fall_damage_base_damage",
-                            "Name": "Base Damage",
+                            "Name": "Base damage",
                             "Handles": {
                                 "NameHandle": "h7890123456abcdef7890123456abcdef7890",
                                 "DescriptionHandle": "h8901234567abcdef8901234567abcdef8901"
@@ -56,7 +56,7 @@
                         },
                         {
                             "Id": "fall_damage_maximum_distance",
-                            "Name": "Maximum Distance",
+                            "Name": "Maximum distance",
                             "Handles": {
                                 "NameHandle": "hb234567890abcdefb234567890abcdefb234",
                                 "DescriptionHandle": "hc345678901abcdefc345678901abcdefc345"
@@ -71,7 +71,7 @@
                         },
                         {
                             "Id": "fall_damage_minimum_distance",
-                            "Name": "Minimum Distance",
+                            "Name": "Minimum distance",
                             "Handles": {
                                 "NameHandle": "hd456789012abcdefd456789012abcdefd456",
                                 "DescriptionHandle": "he567890123abcdefe567890123abcdefe567"
@@ -86,7 +86,7 @@
                         },
                         {
                             "Id": "fall_damage_multiplier_huge_gargantuan",
-                            "Name": "Huge/Gargantuan Multiplier",
+                            "Name": "Huge/gargantuan multiplier",
                             "Handles": {
                                 "NameHandle": "hf678901234abcdeff678901234abcdeff678",
                                 "DescriptionHandle": "h0789012345abcdef0789012345abcdef0789"
@@ -101,17 +101,17 @@
                         },
                         {
                             "Id": "fall_damage_prone_percent",
-                            "Name": "Prone Percentage",
+                            "Name": "Chance to fall prone",
                             "Handles": {
                                 "NameHandle": "h1890123456abcdef1890123456abcdef1890",
                                 "DescriptionHandle": "h2901234567abcdef2901234567abcdef2901"
                             },
-                            "Type": "slider_float",
-                            "Default": 0.25,
-                            "Description": "Percentage chance to be knocked prone from falling",
+                            "Type": "slider_int",
+                            "Default": 100,
+                            "Description": "Chance to fall prone when receiving fall damage",
                             "Options": {
-                                "Min": 0.0,
-                                "Max": 1.0
+                                "Min": 0,
+                                "Max": 100
                             }
                         }
                     ]
@@ -127,14 +127,14 @@
             "Sections": [
                 {
                     "SectionId": "fall_pathfinding",
-                    "SectionName": "Fall Pathfinding",
+                    "SectionName": "Fall pathfinding",
                     "Handles": {
                         "NameHandle": "h4123456789abcdef4123456789abcdef4123"
                     },
                     "Settings": [
                         {
                             "Id": "fall_dead_pathfinding_cost",
-                            "Name": "Dead Pathfinding Cost",
+                            "Name": "Dead pathfinding cost",
                             "Handles": {
                                 "NameHandle": "h4123456789abcdef4123456789abcdef4123",
                                 "DescriptionHandle": "h5234567890abcdef5234567890abcdef5234"
@@ -149,7 +149,7 @@
                         },
                         {
                             "Id": "fall_impact_constant",
-                            "Name": "Impact Constant",
+                            "Name": "Impact constant",
                             "Handles": {
                                 "NameHandle": "h6345678901abcdef6345678901abcdef6345",
                                 "DescriptionHandle": "h7456789012abcdef7456789012abcdef7456"
@@ -164,7 +164,7 @@
                         },
                         {
                             "Id": "fall_impact_min_weight",
-                            "Name": "Impact Minimum Weight",
+                            "Name": "Impact minimum weight",
                             "Handles": {
                                 "NameHandle": "h8567890123abcdef8567890123abcdef8567",
                                 "DescriptionHandle": "h9678901234abcdef9678901234abcdef9678"
@@ -179,7 +179,7 @@
                         },
                         {
                             "Id": "fall_impact_push_distance",
-                            "Name": "Impact Push Distance",
+                            "Name": "Impact push distance",
                             "Handles": {
                                 "NameHandle": "ha789012345abcdefa789012345abcdefa789",
                                 "DescriptionHandle": "hb890123456abcdefb890123456abcdefb890"
@@ -194,7 +194,7 @@
                         },
                         {
                             "Id": "fall_max_damage_pathfinding_cost",
-                            "Name": "Max Damage Pathfinding Cost",
+                            "Name": "Max damage pathfinding cost",
                             "Handles": {
                                 "NameHandle": "hc901234567abcdefc901234567abcdefc901",
                                 "DescriptionHandle": "hd012345678abcdefd012345678abcdefd012"
@@ -209,7 +209,7 @@
                         },
                         {
                             "Id": "fall_min_damage_pathfinding_cost",
-                            "Name": "Min Damage Pathfinding Cost",
+                            "Name": "Min damage pathfinding cost",
                             "Handles": {
                                 "NameHandle": "he123456789abcdefe123456789abcdefe123",
                                 "DescriptionHandle": "hf234567890abcdeff234567890abcdeff234"
