@@ -1,7 +1,4 @@
--- Create CFD table
-Mods = Mods or {}
-Mods.ConfigurableFallDamage = {}
-CFD = Mods.ConfigurableFallDamage
+CFD = CFD or {}
 
 -- Empty defaults that will be populated from the game
 CFD.Constants = {

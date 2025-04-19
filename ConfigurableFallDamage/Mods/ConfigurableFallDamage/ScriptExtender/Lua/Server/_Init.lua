@@ -13,5 +13,5 @@ CFD.FallDamage.Initialize()
 
 -- Subscribe to MCM setting changes
 Ext.Events.SessionLoaded:Subscribe(function()
-    Ext.ModEvents.BG3MCM["MCM_Setting_Saved"]:Subscribe(CFD.MCM.HandleSettingChange)
+    Ext.ModEvents.BG3MCM["MCM_Setting_Saved"]:Subscribe(MCMHandler.HandleSettingChange)
 end)

@@ -1,5 +1,4 @@
-CFD = CFD or {}
-CFD.MCM = {}
+MCMHandler = {}
 
 local FALL_DAMAGE_SETTINGS = {
     -- General settings
@@ -23,7 +22,7 @@ local FALL_DAMAGE_SETTINGS = {
     "fall_min_damage_pathfinding_cost"
 }
 
-function CFD.MCM.HandleSettingChange(payload)
+function MCMHandler.HandleSettingChange(payload)
     if not payload or payload.modUUID ~= ModuleUUID then
         return
     end
