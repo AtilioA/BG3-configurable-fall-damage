@@ -1,6 +1,7 @@
 {
     "SchemaVersion": 1,
     "ModName": "Configurable Fall Damage",
+    "ModDescription": "Customize fall damage parameters including base damage, minimum/maximum distances, and more.\nDefault values are the game's defaults.",
     "Handles": {
         "NameHandle": "h1234567890abcdef1234567890abcdef1234"
     },
@@ -31,7 +32,7 @@
                             "Description": "Base damage multiplier for falls",
                             "Options": {
                                 "Min": 0.0,
-                                "Max": 0.1
+                                "Max": 1.0
                             }
                         },
                         {
@@ -88,7 +89,7 @@
                             },
                             "Type": "slider_int",
                             "Default": 25,
-                            "Description": "Chance to fall prone when receiving fall damage.\nNote: setting to 0 will not prevent the \"Prone\" indicator from appearing.",
+                            "Description": "Threshold to fall prone when receiving fall damage.\nNote: setting to 0 will not prevent the \"Prone\" indicator from appearing.",
                             "Options": {
                                 "Min": 0,
                                 "Max": 100
