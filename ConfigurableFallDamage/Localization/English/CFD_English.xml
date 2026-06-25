@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
     <!-- Mod name -->
-    <content contentuid="h1234567890abcdef1234567890abcdef1234" version="1">Configurable Fall Damage</content>
+    <content contentuid="h7523828a9e00443db48c17660329cdfadgbf" version="1">Configurable Fall Damage</content>
 
     <!-- Tab names -->
-    <content contentuid="h2345678901abcdef2345678901abcdef2345" version="1">Fall damage parameters</content>
-    <content contentuid="h3012345678abcdef3012345678abcdef3012" version="1">Pathfinding parameters</content>
-    <content contentuid="hgeneral12345abcdefhgeneral12345abcdefhgen" version="1">General</content>
+    <content contentuid="h8affcd2d0e4442a1a17acecc337f06a778f6" version="1">Fall damage parameters</content>
+    <content contentuid="h98d007349c1446d7a6be54cd1241da94657f" version="1">Pathfinding parameters</content>
+    <content contentuid="hc9b66c10e94a43fa9e186c1420e6fe00ee0b" version="1">General</content>
 
     <!-- Section names -->
-    <content contentuid="h3456789012abcdef3456789012abcdef3456" version="1">General settings</content>
-    <content contentuid="h6789012345abcdef6789012345abcdef6789" version="1">Fall damage</content>
-    <content contentuid="h4123456789abcdef4123456789abcdef4123" version="1">Fall pathfinding</content>
+    <content contentuid="h283034db828449f7982b71841ea16cc13d9d" version="1">General settings</content>
+    <content contentuid="h73fbc7a55ccb40b283d48bd51927736417f3" version="1">Fall damage</content>
+    <content contentuid="h4e1d0a7d256a450182db1cb97b0262886b31" version="1">Fall pathfinding</content>
 
     <!-- Setting names and descriptions -->
     <!-- General settings -->
-    <content contentuid="h4567890123abcdef4567890123abcdef4567" version="1">Mod enabled</content>
-    <content contentuid="h5678901234abcdef5678901234abcdef5678" version="1">Toggle the mod on/off without having to uninstall it.</content>
-    <content contentuid="hdebug123456abcdefhdebug123456abcdefhdeb" version="1">Debug level</content>
-    <content contentuid="hdebug234567abcdefhdebug234567abcdefhdeb" version="1">Debug output level (0: None, 1: Basic, 2: Verbose)</content>
+    <content contentuid="hb52d0fdd1f30463990e7dca24e16f9c8223a" version="1">Mod enabled</content>
+    <content contentuid="ha130e2b446e54bc38607654fee9510dd4ec1" version="1">Toggle the mod on/off without having to uninstall it.</content>
+    <content contentuid="h10012ae259434f69b08d299fcf27149dd55f" version="1">Debug level</content>
+    <content contentuid="h2b16fd9b82f646079c613fe654a70c32adb7" version="1">Debug output level (0: None, 1: Basic, 2: Verbose)</content>
 
     <!-- Fall Damage settings -->
-    <content contentuid="h7890123456abcdef7890123456abcdef7890" version="1">Base damage</content>
-    <content contentuid="h8901234567abcdef8901234567abcdef8901" version="1">Base damage multiplier for falls</content>
-    <content contentuid="hb234567890abcdefb234567890abcdefb234" version="1">Maximum distance (m)</content>
-    <content contentuid="hc345678901abcdefc345678901abcdefc345" version="1">Maximum distance in meters for fall damage calculation (21m ~ 69ft)</content>
-    <content contentuid="hd456789012abcdefd456789012abcdefd456" version="1">Minimum distance (m)</content>
-    <content contentuid="he567890123abcdefe567890123abcdefe567" version="1">Minimum distance in meters before fall damage is applied (4m ~ 13ft)</content>
-    <content contentuid="hf678901234abcdeff678901234abcdeff678" version="1">Huge/gargantuan multiplier</content>
-    <content contentuid="h0789012345abcdef0789012345abcdef0789" version="1">Damage multiplier for huge and gargantuan creatures</content>
-    <content contentuid="h1890123456abcdef1890123456abcdef1890" version="1">Chance to fall prone</content>
-    <content contentuid="h2901234567abcdef2901234567abcdef2901" version="1">Chance to fall prone when receiving fall damage.&lt;br&gt;Note: setting to 0 will not prevent the "Prone" indicator from appearing.</content>
+    <content contentuid="hc12418293e8b4d38b329ce5780ef168d95b0" version="1">Base damage</content>
+    <content contentuid="h79bde239e4e542ed98831a9740776358d3fg" version="1">Base damage multiplier for falls</content>
+    <content contentuid="h2bbd8ad39e434560a1bb5161b232737562d5" version="1">Maximum distance (m)</content>
+    <content contentuid="h3b41b0602f3f42d8a62ae636a9179056b64b" version="1">Maximum distance in meters for fall damage calculation (21m ~ 69ft)</content>
+    <content contentuid="he18f9d3aec8d43dabfdff0900ec37a42bg79" version="1">Minimum distance (m)</content>
+    <content contentuid="haef0b7cc87a64c46bd52ee865f3a872642a1" version="1">Minimum distance in meters before fall damage is applied (4m ~ 13ft)</content>
+    <content contentuid="h4b5df110ee7a4786af3e5ec9bd8a58fag97f" version="1">Huge/gargantuan multiplier</content>
+    <content contentuid="h00d5f7c0a4e2463f8f891d1a6c82fab4c80d" version="1">Damage multiplier for huge and gargantuan creatures</content>
+    <content contentuid="h2f7f5239c77a412daa682b1be21990f51dd0" version="1">Chance to fall prone</content>
+    <content contentuid="h104b0c4371a34718bb7ce2970ac2d314dabf" version="1">Chance to fall prone when receiving fall damage.&lt;br&gt;Note: setting to 0 will not prevent the "Prone" indicator from appearing.</content>
     <!-- Fall Pathfinding settings -->
-    <content contentuid="h4123456789abcdef4123456789abcdef4123" version="1">Dead pathfinding cost</content>
-    <content contentuid="h5234567890abcdef5234567890abcdef5234" version="1">Pathfinding cost for deadly falls</content>
-    <content contentuid="h6345678901abcdef6345678901abcdef6345" version="1">Impact constant</content>
-    <content contentuid="h7456789012abcdef7456789012abcdef7456" version="1">Constant used in fall impact calculations</content>
-    <content contentuid="h8567890123abcdef8567890123abcdef8567" version="1">Impact minimum weight</content>
-    <content contentuid="h9678901234abcdef9678901234abcdef9678" version="1">Minimum weight for fall impact calculations</content>
-    <content contentuid="ha789012345abcdefa789012345abcdefa789" version="1">Impact push distance (m)</content>
-    <content contentuid="hb890123456abcdefb890123456abcdefb890" version="1">How far characters are pushed by fall impacts (2m ~ 7ft)</content>
-    <content contentuid="hc901234567abcdefc901234567abcdefc901" version="1">Max damage pathfinding cost</content>
-    <content contentuid="hd012345678abcdefd012345678abcdefd012" version="1">Pathfinding cost for maximum damage falls</content>
-    <content contentuid="he123456789abcdefe123456789abcdefe123" version="1">Min damage pathfinding cost</content>
-    <content contentuid="hf234567890abcdeff234567890abcdeff234" version="1">Pathfinding cost for minimum damage falls</content>
+    <content contentuid="h4e1d0a7d256a450182db1cb97b0262886b31" version="1">Dead pathfinding cost</content>
+    <content contentuid="h66e768cec7eb4b45a7b450dcb7fb0df45ge3" version="1">Pathfinding cost for deadly falls</content>
+    <content contentuid="h8fcd987169574b57b27fa4914c7ff25bg454" version="1">Impact constant</content>
+    <content contentuid="he575d7d1922f43dd8bb868f8e18008d02687" version="1">Constant used in fall impact calculations</content>
+    <content contentuid="h0cc38ac79cb144d7b928f6fedb749654ba68" version="1">Impact minimum weight</content>
+    <content contentuid="h0a682e11d22f4ee987b5f4cf6c060ac3b2ag" version="1">Minimum weight for fall impact calculations</content>
+    <content contentuid="h7983a07235a54351894ac5931b40fb3fd5e1" version="1">Impact push distance (m)</content>
+    <content contentuid="h4ca42d27eb184596b3b39c466ff3fa6e4fb6" version="1">How far characters are pushed by fall impacts (2m ~ 7ft)</content>
+    <content contentuid="h914e06a288754036bc91c2990e5246acc6ed" version="1">Max damage pathfinding cost</content>
+    <content contentuid="hbe1393b469a44aa7a53d6263328214720939" version="1">Pathfinding cost for maximum damage falls</content>
+    <content contentuid="hb4a5075fd1ff4d3695d29a6b793629ad491c" version="1">Min damage pathfinding cost</content>
+    <content contentuid="h7755f6f50ce244a38553fd633b1c0ead3eb1" version="1">Pathfinding cost for minimum damage falls</content>
 </contentList>
